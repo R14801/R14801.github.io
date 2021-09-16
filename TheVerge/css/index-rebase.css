@@ -1,0 +1,164 @@
+/*CSS Document*/
+
+body {
+    background: black !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-props {
+    background: url("../resources/1_glowyv.0.png");
+    background-position: center;
+    padding: 3%;
+	display: none;
+}
+.logo-small{
+	width: 32vw;
+	float: left;
+}
+.login-small{
+	width: 18px;
+	fill: #FFFFFF;
+	float: right;
+	padding-top: 2.3%
+}
+.login-small:hover{
+	
+}
+
+.logo-main {
+    width: 70vw;
+}
+
+#date {
+    color: white;
+    font-family: "D-DINCondensed";
+    font-size: 3.5vw;
+    margin: 0px;
+}
+
+.navb {
+    width: 100%;
+    padding: 0rem;
+    padding-bottom: 3rem;
+    margin-left: 0%;
+    height: 10%;
+    text-transform: uppercase;
+}
+
+p:unvisited {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    font-family: DINLIGHT;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    float: left;
+    text-align: left;
+    margin-left: 4%;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px -0px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+    color: #B30E61;
+    text-align: left;
+}
+
+li.dropdown {
+    display: inline-block;
+    text-align: left;
+}
+
+.dropdown-content {
+    display: none;
+    font-family: "DINLIGHT";
+    position: absolute;
+    background-color: #000000;
+    text-align: left;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    font-size: 9px;
+    font-family: DINLIGHT;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    font-size: 9px;
+}
+
+#navhr {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.facebook {
+    width: 35px;
+}
+
+.facebook:hover,
+.twitter:hover,
+.rss:hover,
+.profile:hover {
+    filter: brightness(400%);
+    filter: contrast(200%);
+    filter: grayscale(1);
+}
+
+.twitter {
+    width: 35px;
+    padding-right: 0.2%;
+}
+
+.rss {
+    width: 32px;
+    padding-bottom: 0.1%;
+    padding-right: 1.5%;
+}
+
+.profile {
+    width: 35px;
+    padding-bottom: 0%;
+}
+
+.profile:hover {
+    opacity: 0.6;
+}

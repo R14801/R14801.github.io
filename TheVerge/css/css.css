@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+
+.header {
+    background-image: url("../resources/FutureOfMusic_Season02_Landscape.0.png");
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    padding-top: 2.7%;
+    padding-bottom: 2.7%;
+}
+
+img.logo {
+    width: 45vw;
+}
+
+#date {
+    color: white;
+    font-family: "D-DINCondensed";
+    font-size: 125%;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    padding-top: 3vw;
+    margin-top: 0vw;
+}
+
+.tagline:hover{
+    color: #e5127d !important;
+    font-style: italic !important;
+    filter: drop-shadow(2px, 2px, 5px, black) !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: #e5127d;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+.content-row,
+.big-box,
+.small-box,
+img,
+.colpad {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.bg-grad {
+    /* background-image: linear-gradient(90deg, rgb(247, 198, 38), rgb(229, 18, 125)); */
+    background: linear-gradient(90deg, #f7c626 15%, #f68c2f 40%, #e5127d 85%);
+    margin: 2%;
+}
+
+.content-row {
+    padding: 2px !important;
+    padding-bottom: 0px !important;
+    background: transparent;
+    border: 0px solid transparent;
+}
+
+.big-box,
+.small-box {
+    background: black;
+    background-clip: content-box;
+    border: 1px solid transparent;
+    border-bottom: 0px solid transparent !important;
+    border-top: 0px solid transparent !important;
+}
+
+.big-box-img {
+    /* height: 220px; */
+    max-width: 30vw;
+}
+.small-box-img{
+	max-width: 23.5vw;
+}
+.big-box-text {
+    color: white;
+    font-family: "DINCONDREG";
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+}
+
+.highlight-row {
+    padding: 6rem !important;
+}

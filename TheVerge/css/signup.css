@@ -1,0 +1,112 @@
+/* CSS Document */
+@import url("fonts.css");
+body{
+	background-color: black;
+}
+
+.dbar{
+	background-image: linear-gradient(90deg, rgb(247, 198, 38), rgb(229, 18, 125));
+	width: 40%;
+	height: 10px;
+	display: block;
+	/*margin-left: 29%;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -1.5%;
+}
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	padding-top: 2%;
+}
+
+hr{
+	margin-top: 3%;
+	color: rgb(0, 0, 0, 0.2);
+	width: 20%;
+}
+
+.fields{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2%;
+	color: white;
+}
+
+.uname{
+	display: block;
+	width: 25%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5%;
+	border-color: black;
+	border-radius: 4px;
+}
+.pwd{
+	display: block;
+	width: 25%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5%;
+	border-color: black;
+	border-radius: 4px;
+}
+.email{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	height: 30px;
+	margin-top: 1.5%;
+	border-color: black;
+	border-radius: 4px;
+}
+
+.send{
+	display: block;
+	width: 26%;
+	height: 37px;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(90deg, rgb(247, 198, 38), rgb(229, 18, 125));
+	border-color: black;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: saturate(0.8);
+	filter: contrast(0.9);
+	text-decoration: none;
+	
+}
+
+.switcher{
+	padding-top: 2%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-family: "DIN";
+	text-decoration: none;
+}
+a{
+	padding-top: 0%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-family: "DIN";
+	text-decoration: none;
+}
+a:hover{
+	color: #B30E61;
+	text-decoration: underline;
+	text-decoration-color: #B30E61;
+	cursor: pointer;
+}

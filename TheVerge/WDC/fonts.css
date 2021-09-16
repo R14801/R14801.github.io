@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: 'DIN';
+    src: url('Fonts/DIN.ttf');
+}
+
+@font-face {
+    font-family: 'DINCOND';
+    src: url('Fonts/DIN Bold.ttf');
+}
+
+@font-face {
+    font-family: 'DINCOND1';
+    src: url('Fonts/DINCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: "DINCONDREG";
+    src: url("Fonts/DIN Condensed.ttf");
+}
+
+@font-face {
+    font-family: 'DINMED';
+    src: url('Fonts/DIN Medium.ttf');
+}
+
+@font-face {
+    font-family: "DINLIGHT";
+    src: url('Fonts/DIN Light.ttf');
+}
+
+@font-face {
+    font-family: "ADELLE";
+    src: url("Fonts/Adelle_Reg.otf");
+}
+
+@font-face {
+    font-family: "ADELLECONDREG";
+    src: url("Fonts/Adelle Condensed W04 Regular.ttf");
+}
+
+@font-face {
+    font-family: "ADELLESBOLD";
+    src: url("Fonts/Adelle Condensed W04 SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "ADELLECOND";
+    src: url("Fonts/Adelle Condensed W04 Thin.ttf");
+}
+
+@font-face {
+    font-family: "ADELLECONDL";
+    src: url("Fonts/Adelle Condensed W04 Light.ttf");
+}
+
+@font-face {
+    font-family: "ADELLELIGHT";
+    src: url("Fonts/Adelle_light.otf");
+}
+
+@font-face {
+    font-family: "pixeloutline";
+    src: url("Fonts/outline_pixel-7.ttf");
+}
+
+body {
+    font-family: 'DIN', Fallback, sans-serif;
+    font-family: 'DINCOND', Fallback, Berlin Sans FB;
+    font-family: 'DINCOND1';
+    font-family: 'DINCONDREG';
+    font-family: 'DINMED', Fallback, Berlin Sans FB;
+    font-family: 'DINLIGHT', Fallback, Berlin Sans FB;
+    font-family: 'ADELLE', Fallback, Berlin Sans FB;
+    font-family: 'ADELLELIGHT';
+    font-family: 'ADELLECOND';
+    font-family: 'ADELLECONDL';
+    font-family: 'ADELLECONDREG';
+    font-family: 'ADELLESBOLD';
+    font-family: 'pixeloutline';
+}

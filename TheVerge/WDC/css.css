@@ -1,0 +1,162 @@
+
+body {
+    background-image: url("Resources/The_Verge_Wallpaper_07_16_19_landscape.0.jpg");
+    background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+    /*padding: 1%;*/
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+#date{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+	font-family: "DINLIGHT";
+	color: white;
+}
+#white{
+	color: white;
+}
+.divb{
+	background-color: black;
+}
+div.box1 {
+    width: 70%;
+    background-color: black;
+    border: outset;
+    border-color: orange;
+	float: left;
+}
+.title{
+	text-align: center;
+	font-size: 250%;
+	font-family: "DINCOND";
+	color: white;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.title2{
+	text-align: center;
+	font-size: 120%;
+	font-family: "DINMED";
+	color: white;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+div.box2 {
+    width: 29%;
+    background-color: black;
+    border: outset;
+    border-color: orange;
+	float: right;
+	overflow: hidden;
+}
+div.box3 {
+    width: 29%;
+    background-color: black;
+    border: outset;
+    border-color: orange;
+	float: left;
+	overflow: hidden;
+}
+a:link{
+	text-decoration: none;
+}
+div.box4 {
+    width: 70%;
+    background-color: black;
+    border: outset;
+    border-color: orange;
+	float: right;
+}
+div.box5{
+	width: 32.88%;
+	background-color: black;
+	border: outset;
+	border-color: orange;
+	float: left;
+	overflow: hidden;
+}
+div.sbox {
+    width: 60%;
+    background-color: black;
+    border: outset;
+    border-color: orange;
+}
+p:link {
+    text-decoration: none;
+}
+p:unvisited {
+    text-decoration: none;
+}
+p:hover {
+	color: fuchsia;
+	text-decoration-color: fuchsia;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0F0F0F;
+    font-family: DINLIGHT;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.logo {
+    align-items: center
+}
+li {
+    float: left;
+    text-align: left;
+	margin-left: 4%;
+}
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+	font-size: 13px;
+}
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #161616;
+    text-align: left;
+}
+li.dropdown {
+    display: inline-block;
+    text-align: left;
+}
+.dropdown-content {
+    display: none;
+	font-family: "DINLIGHT";
+    position: absolute;
+    background-color: #161616;
+    text-align: left;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+	font-size: 9px;
+	font-family: DINLIGHT;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: black;
+	font-size: 9px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}

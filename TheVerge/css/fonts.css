@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: 'DIN';
+    src: url('../Fonts/DIN.ttf');
+}
+
+@font-face {
+    font-family: 'DINCOND';
+    src: url('../Fonts/DIN Bold.ttf');
+}
+
+@font-face {
+    font-family: 'DINCOND1';
+    src: url('../Fonts/DINCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: "DINCONDREG";
+    src: url("../Fonts/DIN Condensed.ttf");
+}
+
+@font-face {
+    font-family: 'DINMED';
+    src: url('../Fonts/DIN Medium.ttf');
+}
+
+@font-face {
+    font-family: "DINLIGHT";
+    src: url('../Fonts/DIN Light.ttf');
+}
+
+@font-face {
+    font-family: "ADELLE";
+    src: url("../Fonts/Adelle_Reg.otf");
+}
+
+@font-face {
+    font-family: "ADELLECONDREG";
+    src: url("../Fonts/Adelle Condensed W04 Regular.ttf");
+}
+
+@font-face {
+    font-family: "ADELLESBOLD";
+    src: url("../Fonts/Adelle Condensed W04 SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "ADELLECOND";
+    src: url("../Fonts/Adelle Condensed W04 Thin.ttf");
+}
+
+@font-face {
+    font-family: "ADELLECONDL";
+    src: url("../Fonts/Adelle Condensed W04 Light.ttf");
+}
+
+@font-face {
+    font-family: "ADELLELIGHT";
+    src: url("../Fonts/Adelle_light.otf");
+}
+@font-face {
+	font-family: "ADELLESANS";
+	src: url("../fonts/Adelle Sans W04 Italic.ttf");
+}
+
+@font-face {
+    font-family: "pixeloutline";
+    src: url("../Fonts/outline_pixel-7.ttf");
+}
+@font-face {
+	font-family: "D-DIN";
+	src: url("../fonts/D-DIN.otf");
+}
+@font-face {
+	font-family: "D-DIN-Bold";
+	src: url("../fonts/D-DIN-Bold.otf");
+}
+@font-face {
+	font-family: "D-DINCondensed";
+	src: url("../fonts/D-DINCondensed.otf");
+}
+@font-face {
+	font-family: "D-DINCondensed-Bold";
+	src: url("../fonts/D-DINCondensed-Bold.otf");
+}
+@font-face {
+	font-family: "D-DINExp";
+	src: url("../fonts/D-DINExp.otf");
+}
+@font-face{
+	font-family: "D-DINExp-Bold";
+	src: url("../fonts/D-DINExp-Bold.otf");
+}
+@font-face{
+	font-family: "D-DINExp-Italic";
+	src: url("../fonts/D-DINExp-Italic.otf");
+}
+@font-face {
+	font-family: "D-DIN-Italic";
+	src: url("../fonts/D-DIN-Italic.otf");
+}
+@font-face {
+	font-family: "DIN-Next-W01";
+	src: url("../fonts/DIN Next W01 Condensed Light.ttf");
+}
+@font-face {
+	font-family: "DIN-Condensed-Light";
+	src: url("../fonts/DIN Condensed Light.ttf");
+}
+}
+body {
+    font-family: 'DIN', Fallback, sans-serif;
+    font-family: 'DINCOND', Fallback, Berlin Sans FB;
+    font-family: 'DINCOND1';
+    font-family: 'DINCONDREG';
+    font-family: 'DINMED', Fallback, Berlin Sans FB;
+    font-family: 'DINLIGHT', Fallback, Berlin Sans FB;
+    font-family: 'ADELLE', Fallback, Berlin Sans FB;
+    font-family: 'ADELLELIGHT';
+    font-family: 'ADELLECOND';
+    font-family: 'ADELLECONDL';
+    font-family: 'ADELLECONDREG';
+    font-family: 'ADELLESBOLD';
+	font-family: 'ADELLESANS';
+    font-family: 'pixeloutline';
+	font-family: 'D-DIN';
+	font-family: 'D-DIN-Bold';
+	font-family: 'D-DINCondensed';
+	font-family: 'D-DINCondensed-Bold';
+	font-family: 'D-DINExp';
+	font-family: 'D-DINExp-Bold';
+	font-family: 'D-DINExp-Italic';
+	font-family: 'D-DIN-Italic';
+	font-family: 'DIN-Next-W01';
+	font-family: 'DIN-Condensed-Light';
+}
